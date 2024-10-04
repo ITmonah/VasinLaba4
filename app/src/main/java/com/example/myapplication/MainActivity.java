@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void forthPageBtn(View view) {
-        Intent intent = new Intent(getApplicationContext(),SecondActivity.class);
+        Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }
