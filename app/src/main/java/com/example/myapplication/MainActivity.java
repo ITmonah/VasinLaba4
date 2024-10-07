@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void fifthPageBtn(View view) {
-        Intent intent = new Intent(getApplicationContext(),SecondActivity.class);
+        Intent intent = new Intent(getApplicationContext(),ForthActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         startActivity(intent);
     }
